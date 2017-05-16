@@ -15,6 +15,8 @@ public class CustomerController {
 	/*나도 수정함 되겠지*/
 	
 	
+	/*아 빌드패쓰는 커밋안하면 되는거아님?*/
+	
 	@Autowired
 	private SqlSession sqlsessoin;
 	
