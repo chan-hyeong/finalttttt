@@ -23,6 +23,10 @@ public class CustomerController {
 	@RequestMapping("/index.do")
 	public String index(){
 		
+		int i=100;
+		System.out.println("이건 이찬형이 쓴 메시지이다");
+		System.out.println("병수가 쓴건 과연 어디에?" + i);
+		
 		
 		return "customer/index";
 	}
