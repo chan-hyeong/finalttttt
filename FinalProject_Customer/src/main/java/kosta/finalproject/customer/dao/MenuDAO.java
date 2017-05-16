@@ -10,7 +10,7 @@ public interface MenuDAO {
 	//현재시각 14:54
 	
 //git은 어케 쓰는걸까...
-	
+	public void testaasss();
 	
 	
 	public List<MenuTDTO> testList();
