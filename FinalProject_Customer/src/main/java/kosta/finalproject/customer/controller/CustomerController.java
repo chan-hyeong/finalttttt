@@ -84,9 +84,19 @@ public class CustomerController {
 
 	@RequestMapping("/shoppingbag.do")
 	public String shoppingbag() {
+<<<<<<< HEAD
 		System.out.println("BS브랜치에 등록 합니다 마스터 합쳐줘");
 		System.out.println("BS수정 2번째 ㅁㅁㅁㅁㅁㅁㅁ");
 		String aa = "장준혁";
+=======
+		System.out.println("난 로컬 ch에서 작업해서 origin/ch 에 올릴거임 ");
+		System.out.println("병수도 bs에서 작ㅇ버해서 origin/bs 에 올릴거임 ");
+		System.out.println("그럼 마스터는 둘중 하나를 고를 수 있어");
+		System.out.println("어떻게 해야 합칠 수 있을까");
+		
+		
+
+>>>>>>> 89425bec2195f72f9b1870be5811edaf919ae3fd
 		return "customer/shoppingbag";
 	}
 }
