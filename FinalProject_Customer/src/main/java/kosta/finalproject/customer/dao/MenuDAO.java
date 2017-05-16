@@ -12,6 +12,8 @@ public interface MenuDAO {
 //git은 어케 쓰는걸까...
 	
 	
+	//아 졸라어렵네네네네네네ㅔ
+	
 	
 	public List<MenuTDTO> testList();
 	
