@@ -21,6 +21,11 @@ public class CustomerController {
 
 	@RequestMapping("/index.do")
 	public String index() {
+		System.out.println("이것은 lch 브랜치를 이용해서 수정한 파일입니다");
+		System.out.println("뭐여 왜 안ㄴ와");
+			
+		
+		
 
 		int i = 100;
 		System.out.println("이건 이찬형이 쓴 메시지이다");
