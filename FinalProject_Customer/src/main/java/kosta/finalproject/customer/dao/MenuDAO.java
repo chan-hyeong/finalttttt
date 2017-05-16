@@ -5,5 +5,5 @@ public interface MenuDAO {
 	//작성자 : 이찬형 
 	//현재시각 14:54
 	
-
+ public void testtttt();
 }
