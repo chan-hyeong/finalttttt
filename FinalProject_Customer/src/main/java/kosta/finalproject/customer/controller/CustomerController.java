@@ -15,6 +15,8 @@ public class CustomerController {
 	/*나도 수정함 되겠지*/
 	
 	/*다시해보자*/
+	
+	/*아 준혁이*/
 	@Autowired
 	private SqlSession sqlsessoin;
 	
