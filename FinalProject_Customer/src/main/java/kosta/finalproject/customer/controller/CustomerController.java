@@ -20,13 +20,28 @@ public class CustomerController {
 	private SqlSession sqlsessoin;
 
 	@RequestMapping("/index.do")
+<<<<<<< HEAD
+	public String index(){
+		
+
+		int i=100;
+		System.out.println("이건 이찬형이 쓴 메시지이다");
+		System.out.println("병수가 쓴건 과연 어디에?" + i);
+		
+
+
+
+System.out.println("나도 이거 작업중 tttt");
+=======
 	public String index() {
 
 		int i = 100;
 		System.out.println("이건 이찬형이 쓴 메시지이다");
 		System.out.println("병수가 쓴건 과연 어디에?" + i);
-
-		System.out.println("나도 이거 작업중 tttt");
+		
+		System.out.println("이건 수정한 내용이다");
+		
+>>>>>>> 2e077a267e354de9c240ce47417facdc93923230
 
 		System.out.println("병수가 작업 한 내용 이다 26번줄 ");
 		return "customer/index";
