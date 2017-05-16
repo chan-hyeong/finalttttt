@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class CustomerController {
+	/*주석을 존나 달아야자ㅣ 
+	버거킹가고싶다 빨리 
+	새우버거*/
+	
+	
+	
 	
 	@Autowired
 	private SqlSession sqlsessoin;
