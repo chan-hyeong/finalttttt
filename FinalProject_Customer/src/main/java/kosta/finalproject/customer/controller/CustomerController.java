@@ -89,7 +89,12 @@ public class CustomerController {
 	@RequestMapping("/shoppingbag.do")
 	public String shoppingbag() {
 			System.out.println("BS브랜치에 등록 합니다 마스터 합쳐줘");
+<<<<<<< .merge_file_a02080
 			
+=======
+			System.out.println("BS수정 2번째 ㅁㅁㅁㅁㅁㅁㅁ");
+			String aa="장준혁";
+>>>>>>> .merge_file_a04736
 		return "customer/shoppingbag";
 	}
 }
