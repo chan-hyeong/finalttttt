@@ -23,16 +23,12 @@ public class CustomerController {
 	public String index() {
 		System.out.println("이것은 lch 브랜치를 이용해서 수정한 파일입니다");
 		System.out.println("뭐여 왜 안ㄴ와");
-			
-		
-		
 
 		int i = 100;
 		System.out.println("이건 이찬형이 쓴 메시지이다");
 		System.out.println("병수가 쓴건 과연 어디에?" + i);
-		
-		System.out.println("이건 수정한 내용이다");
 
+		System.out.println("이건 수정한 내용이다");
 
 		System.out.println("병수가 작업 한 내용 이다 26번줄 ");
 		return "customer/index";
@@ -88,13 +84,9 @@ public class CustomerController {
 
 	@RequestMapping("/shoppingbag.do")
 	public String shoppingbag() {
-			System.out.println("BS브랜치에 등록 합니다 마스터 합쳐줘");
-<<<<<<< .merge_file_a02080
-			
-=======
-			System.out.println("BS수정 2번째 ㅁㅁㅁㅁㅁㅁㅁ");
-			String aa="장준혁";
->>>>>>> .merge_file_a04736
+		System.out.println("BS브랜치에 등록 합니다 마스터 합쳐줘");
+		System.out.println("BS수정 2번째 ㅁㅁㅁㅁㅁㅁㅁ");
+		String aa = "장준혁";
 		return "customer/shoppingbag";
 	}
 }
