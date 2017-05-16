@@ -91,6 +91,7 @@ public class CustomerController {
 		System.out.println("난 로컬 ch에서 작업해서 origin/ch 에 올릴거임 ");
 		System.out.println("병수도 bs에서 작ㅇ버해서 origin/bs 에 올릴거임 ");
 		System.out.println("그럼 마스터는 둘중 하나를 고를 수 있어");
+		System.out.println("어떻게 해야 합칠 수 있을까");
 		
 		
 
